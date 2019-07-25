@@ -11,5 +11,5 @@ $ echo 'docker run -ti --rm -v $(pwd):/nano guiscaranse/nano $@' | sudo tee /usr
 But we recommend you to use:
 
 ```sh
-echo 'function nano () {(docker run -ti --rm -v $(pwd):/nano guiscaranse/nano $@)}' | tee -a ~/.profile
+$ echo 'function nano () {(docker run -ti --rm -v $(pwd):/nano guiscaranse/nano $@)}' | tee -a ~/.profile
 ```
